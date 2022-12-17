@@ -1,0 +1,49 @@
+h2{
+  text-align: center;
+  color: palevioletred;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+label{
+  font-size: 20px;
+  font-family: Georgia;
+  color: rgb(94, 90, 90);
+}
+ #number{
+  font-size: 20px;
+ }
+.user{
+  width: 90%;
+  border: 1px solid #eee;
+  padding: 5px;
+}
+.user > * {
+  margin: 5px;
+}
+
+button {
+  padding: 1rem;
+  margin-top: 30px;
+  transition: .3s;
+}
+
+button:hover{
+  background-color: palevioletred;
+  border: 1px solid palevioletred;
+  color: #fff;
+}
+
+hr {
+  background-color: #1c2b2d;
+}
+
+ul{
+  list-style: circle;
+  padding-left: 1.5rem;
+}
+
+ul li {
+  font-size: 1.4rem;
+  padding: 5px 0;
+}
